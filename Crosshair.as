@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;	import flash.events.*;		public class Crosshair extends MovieClip {		public function Crosshair() {			addEventListener(Event.ENTER_FRAME, moveCrosshair);		}				private function moveCrosshair(e:Event) {			//make the crosshair follow the mouse's position			x = stage.mouseX;			y = stage.mouseY;		}	}	}
